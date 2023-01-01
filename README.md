@@ -6,4 +6,4 @@ I've decided to work on a project for each day and share my thoughts with it. Fo
 
 # To-do List web app
 To do list is where you can put your daily tasks there. This includes a local storage function, where it essentially stores your tasks on your browser so that It will not get wiped out when you refresh or close the browser. It includes 3 categories where you can rank a task according to how important it is, with urgent being the most important. Currently, this is only suitable for desktop and tablet viewing.
-![image](https://user-images.githubusercontent.com/39120147/210167952-1577bc5d-a00e-407d-9a28-740d20d225c4.png)
+![image](https://user-images.githubusercontent.com/39120147/210168057-1990f6e8-7400-44be-ae73-c537b2e4cfc9.png)
