@@ -3,11 +3,11 @@ Snake game is a web app game where you control the snake and eat food scattered 
 ![image](https://user-images.githubusercontent.com/39120147/210235789-6b09c43a-2943-4dce-92d7-9c56b9e26d43.png)
 <br>
 # How to play
-1. When the page is loaded, the snake will move. Controls are WASD and arrow keys to control the snake's body.
+1. When the page is loaded, the snake will move. To control the snake's body, use either WASD or arrow keys.
 ![snakegameexample1edited](https://user-images.githubusercontent.com/39120147/210236309-9ce0b9b2-4c32-4d64-a56e-f19244de21c6.png)
-2. When the game is over, go ahead and click on the "try again" button
+2. When the game is over, go ahead and click on the "try again" button to restart the game.
 ![image](https://user-images.githubusercontent.com/39120147/210236395-2d1055f4-7d5a-4233-8ca8-588d0a4e628a.png)
-3. You may switch between difficulties, which ultimately resets the canvas and starts over all again
+3. You may switch between difficulties, which ultimately resets the canvas and starts over all again.
 ![image](https://user-images.githubusercontent.com/39120147/210236494-645d55dc-d6b6-4ffb-a696-8b6890c15994.png)
 Score will also update when the user eats food.
 <br>
