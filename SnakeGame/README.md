@@ -12,4 +12,5 @@ Snake game is a web app game where you control the snake and eat food scattered 
 Score will also update when the user eats food.
 <br>
 # Conclusion
+
 I've read some documentaries and tutorials on how to make a snake game in JavaScript, and made the game from scratch. I learnt how a game can be run inside canvas HTML elements and getContext in JS is mainly used for drawing objects on a canvas. I have also learnt how games on websites use specific elements and functions to run the game.
