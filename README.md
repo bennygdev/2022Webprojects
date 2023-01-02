@@ -3,8 +3,8 @@ This is a work in progress. I wanted to put all my small projects written in Jav
 
 # Table of contents
 WIP
-* [To-do List](https://github.com/bennygdev/2022Webprojects/tree/master/ToDoList)
-* [Snake Game](https://github.com/bennygdev/2022Webprojects/tree/master/SnakeGame)
+* [To-do List](#To-do List web app)
+* [Snake Game](#Snake game web game)
 
 # Description
 I've decided to work on a project for each day and share my thoughts with it. For each day I am going to spend my time making a new project that shows the use of JavaScript in projects.
