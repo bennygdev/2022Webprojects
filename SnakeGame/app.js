@@ -32,10 +32,10 @@ const draw = () => {
 
 setInterval(draw, gameInterval); //100
 
-//48 instead of 50 to prevent the food from spawning at the extreme edges, mostly it is done to reduce difficulty in timing.
+//58 instead of 60 to prevent the food from spawning at the extreme edges, mostly it is done to reduce difficulty in timing.
 let food = {
-    x: Math.floor(Math.random() * 48) * 10,
-    y: Math.floor(Math.random() * 48) * 10
+    x: Math.floor(Math.random() * 58) * 10,
+    y: Math.floor(Math.random() * 58) * 10
 };
 
 const drawFood = () => {
@@ -93,8 +93,8 @@ const update = () => {
 
     if (newHead.x === food.x && newHead.y === food.y) {
         food = {
-        x: Math.floor(Math.random() * 48) * 10,
-        y: Math.floor(Math.random() * 48) * 10
+        x: Math.floor(Math.random() * 58) * 10,
+        y: Math.floor(Math.random() * 58) * 10
         };
         updateScore();
     } else {
