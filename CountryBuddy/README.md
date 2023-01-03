@@ -14,5 +14,6 @@ You can go ahead and search any countries by just entering your desired country 
 ![image](https://user-images.githubusercontent.com/39120147/210377115-c2a6200a-8162-4b48-8f24-838a0b4e09eb.png)
 ![image](https://user-images.githubusercontent.com/39120147/210377183-d81128ef-bfdf-49de-9a28-73a17bb70799.png)
 <br>
-# Conclusion
+# The Conclusion
+
 I read the API and explored on how to read an array from an object in JavaScript. I then printed the object to the console and read most of the keys and values and managed to extract the values from the object. I learnt how APIs can be used to make complex functionality more easily and ultimately, it saves you alot of time for example having to manually add countries, to adding cooking recipes. It was fun using an API that does wonders so easily and could be handy for future projects.
