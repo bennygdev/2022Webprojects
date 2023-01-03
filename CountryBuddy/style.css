@@ -1,0 +1,149 @@
+@font-face{
+    font-family: varelaRound;
+    src: url(../fonts/VarelaRound/VarelaRound-Regular.ttf)
+}
+
+
+:root{
+    --primary: #5865F2;
+    --primaryLight: #6974F2;
+    --bgcolor: /* #F1F1F1; */ #FFFFFF;
+    --countrybg: /* #DDB142; */ #F1F1F1;
+
+    --textDefaultColor: #2B2B2B;
+}
+
+body{
+    background-color: var(--bgcolor);
+}
+
+p{
+    font-family: varelaRound, sans-serif;
+}
+
+h3{
+    font-family: varelaRound, sans-serif;
+    font-size: 2.5em;
+}
+
+h4{
+    font-family: varelaRound, sans-serif;
+    font-size: 1.25em;
+}
+
+#header{
+    font-family: varelaRound, sans-serif;
+    text-align: center;
+    font-size: 4em;
+}
+
+.searchContainer{
+    margin: 0 auto;
+    width: 30%;
+}
+
+.searchWrapper{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    gap: 1.25em;
+}
+
+.searchWrapper button{
+    background-color: var(--primary);
+    padding: 0.8em 0.4em;
+    border-radius: 1.1em;
+    border: none;
+    color: #FFFFFF;
+}
+
+.searchWrapper button:hover{
+    background-color: var(--primaryLight);
+    transition: 0.3s ease-in-out;
+}
+
+.searchWrapper input{
+    border: none;
+    border-bottom: 2px solid var(--primary);
+    color: var(--textDefaultColor);
+    font-size: 1em;
+}
+
+.searchWrapper input:focus{
+    outline: none;
+}
+
+.searchWrapper input:focus::placeholder{
+    color: transparent;
+}
+
+.wrapper{
+    text-align: left;
+}
+
+.data-wrapper{
+    line-height: 20%;
+}
+
+#countryCont{
+    background-color: var(--countrybg);
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#countryInfo{
+    text-align: center;
+}
+
+#countryName{
+    font-family: varelaRound, sans-serif;
+    color: #DDB142;
+}
+
+#highlight{
+    color: #AF0000;
+}
+
+#errortext{
+    color: #AF0000;
+}
+
+@media only screen and (max-width: 1600px) {
+    .searchContainer{
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .searchContainer{
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .searchContainer{
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .searchContainer{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #countryCont{
+        width: 100%;
+        padding: 20px 0px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .wrapper{
+        text-align: center;
+    }
+    .flag-img{
+        width: 90%;
+    }
+}
