@@ -146,6 +146,7 @@ hardDifficultyButton.addEventListener("click", () => {
     score = 0;
     snake = [{x: 150, y: 150}, {x: 140, y: 150}, {x: 130, y: 150}, {x: 120, y: 150}, {x: 110, y: 150}];
     disableTryAgainButton();
+    document.querySelector("#score").textContent = score;
   
     // Set the new interval to 50
     gameInterval = 50;
@@ -166,6 +167,7 @@ easyDifficultyButton.addEventListener("click", () => {
     score = 0;
     snake = [{x: 150, y: 150}, {x: 140, y: 150}, {x: 130, y: 150}, {x: 120, y: 150}, {x: 110, y: 150}];
     disableTryAgainButton();
+    document.querySelector("#score").textContent = score;
   
     // Set the new interval to 100
     gameInterval = 100
