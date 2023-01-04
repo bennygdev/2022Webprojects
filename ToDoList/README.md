@@ -16,6 +16,7 @@ To-do List is a web appp written in JavaScript where you can put your daily task
 6. Once done and satisfied with all the tasks, you can go ahead and delete the finished tasks
 ![image](https://user-images.githubusercontent.com/39120147/210178493-2cd5c20c-139d-4c84-bb34-0a1a54685ded.png)
 <br>
+
 # Conclusion
 
 I learnt some of the code from a tutorial and recreated it by scratch. I enjoyed learning how localstorage works and more and more ideas popped up in my head after learning more about it. This does not use any CSS framework for now, as I wanted to reduce how much HTML is being used to style the web app. Overall, this was a fun side project to do. 
