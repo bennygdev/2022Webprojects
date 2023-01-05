@@ -21,5 +21,7 @@ Score keeper is a web application used to track scores and and with flexible con
 8. On the top right, you can change between light and dark mode, if you think either modes are too uncomfortable you can go ahead and click on the light/dark theme button to change themes.
 ![image](https://user-images.githubusercontent.com/39120147/210733953-74cc7363-1d4b-42e7-add6-943df9b8c0f5.png)
 <br>
+
 # Conclusion
+
 I did some refactoring for the JavaScript code to tidy up and make the code more convenient. It was fun making a web application like this and might be handy if you want to track scores when doing an acitivty. I could have added a local storage function that shows the match history of everything, but that leaves it to another day.
