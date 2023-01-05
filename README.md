@@ -6,6 +6,7 @@ WIP
 * [To-do List](#To-do-List)
 * [Snake Game](#Snake-game)
 * [Country Buddy](#Country-Buddy)
+* [Score Keeper](#Score-Keeper)
 
 # Description
 I've decided to work on a project for each day and share my thoughts with it. For each day I am going to spend my time making a new project that shows the use of JavaScript in projects.
@@ -24,3 +25,10 @@ I've read some documentaries and tutorials on how to make a snake game in JavaSc
 Third day of making a web application, today I've made a country guide where you can search a country by its name and look up information about the country. This uses the REST countries api at https://restcountries.com/ and used it to display the country's information. This is my first time using an API like this and how this REST countries API work is by accessing the object and extracting certain values from an array. I decided to not use any CSS framework for this as I wanted the functionality from the JavaScript to stand out. This is available for desktop, tablet and mobile view (I put in so much code for CSS).
 ![image](https://user-images.githubusercontent.com/39120147/210375046-872fa07d-ee85-4149-8b5c-81449fea3b1c.png)
 I read the API and explored on how to read an array from an object in JavaScript. I then printed the object to the console and read most of the keys and values and managed to extract the values from the object. I learnt how APIs can be used to make complex functionality more easily and ultimately, it saves you alot of time for example having to manually add countries, to adding cooking recipes. It was fun using an API that does wonders so easily and could be handy for future projects. More detailed README about the country buddy can be found [here](https://github.com/bennygdev/2022Webprojects/tree/master/CountryBuddy)
+<br>
+# Score-Keeper
+Fourth and fifth day of making a web application. This took me 2 days due to me having plans that day, but I am pretty proud of this web app being done. This web app is a score keeper where you can keep track of your scores, you can put a score where you can play to, a score multiplier where you can set how many points should be added with a click of a button. It also includes where you can put your team's name and the acitivty's name, this is stored to localstorage so that when the page refreshes, the names and activity values will not be erased. Finally, there is a dark and light theme if you decide that light theme singes your eyeballs way too much. Alot of CSS is written to make the score keeper available for Desktop and Tablet view but however It might not be available for mobile view unless you tilt your device. No CSS framework is used, I used normal CSS to practice my CSS and to let the functionality stand out.
+![image](https://user-images.githubusercontent.com/39120147/210730434-e707e52e-51db-4457-8734-1a78b7824ba0.png)
+![image](https://user-images.githubusercontent.com/39120147/210730492-dde0fb7d-9214-4277-bd34-17fcae8b8f66.png)
+I did some refactoring for the JavaScript code to tidy up and make the code more convenient. It was fun making a web application like this and might be handy if you want to track scores when doing an acitivty. I could have added a local storage function that shows the match history of everything, but that leaves it to another day. More detailed README about the score keeper can be found [here](https://github.com/bennygdev/2022Webprojects/tree/master/Score%20Keeper)
+
