@@ -1,0 +1,268 @@
+@font-face{
+    font-family: robotoMedium;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf)
+}
+
+@font-face{
+    font-family: robotoLight;
+    src: url(../fonts/Roboto/Roboto-Light.ttf)
+}
+
+@font-face{
+    font-family: poppinsMedium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf)
+}
+
+:root{
+    --primary: #DAA520;
+    --sportsColor: #AF0000;
+
+    --winningColor: #32CD32;
+    --losingColor: #ff351f;
+    --dangerColor: #990f00;
+
+    --primaryColor: #FFFFFF;
+    --primaryText: #000000;
+}
+
+.dark-theme{
+    --primaryColor: #404040;
+    --primaryText: #FFFFFF;
+}
+
+body{
+    background-color: var(--primaryColor);
+}
+
+#header{
+    font-family: poppinsMedium, sans-serif;
+    font-size: 4em; /* 4em */
+    text-align: center;
+}
+
+h2{
+    font-family: poppinsMedium, sans-serif;
+    font-size: 2.2vw;
+    color: var(--primaryText);
+}
+
+h3{
+    font-family: poppinsMedium, sans-serif;
+    font-size: 1.75em; /* 1.75 em */
+    color: var(--primaryText);
+}
+
+.lightdarkmode{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#lightdarkBtn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 1em;
+    border: none;
+}
+
+#greenHeader{
+    color: var(--winningColor);
+}
+
+#redHeader{
+    color: var(--losingColor);
+}
+
+.teamsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin-top: -75px;
+}
+
+.teamsContainer input[type="text"] {
+    font-size: 2.2vw; /* 3em */
+    font-family: poppinsMedium, sans-serif;
+    width: 20vw; /* 7.5em */
+    color: var(--primary);
+    border: none;
+    border-bottom: 1px solid var(--primaryText);
+    height: 2.2vw; /* 45px */
+    background-color: var(--primaryColor);;
+}
+
+.teamsContainer input[type="text"]:focus {
+    outline: none;
+}
+
+.teamsContainer input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+.activityContainer{
+    text-align: center;
+    margin-top: -50px;
+}
+
+.activityContainer input[type="text"] {
+    font-size: 1.75rem;
+    font-family: poppinsMedium, sans-serif;
+    width: 10em;
+    color: var(--sportsColor);
+    border: none;
+    border-bottom: 1px solid var(--primaryText);
+    height: 1.2em;
+    background-color: var(--primaryColor)
+}
+
+.activityContainer input[type="text"]:focus {
+    outline: none;
+}
+
+.activityContainer input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+.scoreContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    line-height: 0px;
+    font-size: 20vh;
+    font-family: poppinsMedium;
+    color: var(--primaryText);
+}
+
+.scoreContainer #teamOneScore{
+    margin-left: 100px;
+}
+
+.scoreContainer #teamTwoScore{
+    margin-right: 100px;
+}
+
+#playto{
+    font-size: 1.75rem;
+    font-family: poppinsMedium, sans-serif;
+    width: 1.8em;
+    color: var(--sportsColor);
+    border: none;
+    border-bottom: 1px solid var(--primaryText);
+    height: 1.2em;
+    background-color: var(--primaryColor);
+}
+
+#playto input[type="number"]:focus {
+    outline: none;
+}
+
+#playto input[type="number"]:focus::placeholder {
+    color: transparent;
+}
+
+#scoreMultiplier{
+    font-size: 1.75rem;
+    font-family: poppinsMedium, sans-serif;
+    width: 2em;
+    color: var(--sportsColor);
+    border: none;
+    border-bottom: 1px solid var(--primaryText);
+    height: 1.2em;
+    background-color: var(--primaryColor);
+}
+
+#scoreMultiplier input[type="number"]:focus {
+    outline: none;
+}
+
+#scoreMultiplier input[type="number"]:focus::placeholder {
+    color: transparent;
+}
+
+#scoreMultiplier input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.scorefunctionContainer{
+    text-align: center;
+    margin-top: -100px;
+}
+
+#winningTeam{
+    color: var(--winningColor)
+}
+
+.controlsContainer{
+    text-align: center;
+}
+
+.controlsContainer button{
+    font-family: poppinsMedium;
+    font-size: 1em;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 1.2em;
+}
+
+.controlsContainer #teamoneAdd, .controlsContainer #teamtwoAdd{
+    background-color: var(--winningColor);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.controlsContainer #teamoneAdd[disabled], .controlsContainer #teamtwoAdd[disabled]{
+    background-color: #81d481;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.controlsContainer #teamoneMinus[disabled], .controlsContainer #teamtwoMinus[disabled]{
+    background-color: #fc6656;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.controlsContainer #teamoneMinus, .controlsContainer #teamtwoMinus{
+    background-color: var(--losingColor);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.controlsContainer #restartGame{
+    background-color: var(--dangerColor);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.winner{
+    color: var(--winningColor);
+}
+
+.loser{
+    color: var(--losingColor);
+}
+
+@media only screen and (max-width: 1024px) {
+    h2{
+        font-family: poppinsMedium, sans-serif;
+        font-size: 5vw;
+    }
+    .teamsContainer input[type="text"] {
+        font-size: 5vw; /* 3em */
+        font-family: poppinsMedium, sans-serif;
+        width: 20vw; /* 7.5em */
+        border: none;
+        border-bottom: 1px solid black;
+        height: 4.5vw; /* 45px */
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .activityContainer{
+        text-align: center;
+        margin-top: -20px;
+    }
+}
