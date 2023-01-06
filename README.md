@@ -7,6 +7,7 @@ WIP
 * [Snake Game](#Snake-game)
 * [Country Buddy](#Country-Buddy)
 * [Score Keeper](#Score-Keeper)
+* [Tic tac toe](#Tic-Tac-Toe)
 
 # Description
 I've decided to work on a project for each day and share my thoughts with it. For each day I am going to spend my time making a new project that shows the use of JavaScript in projects.
@@ -31,4 +32,10 @@ Fourth and fifth day of making a web application. This took me 2 days due to me 
 ![image](https://user-images.githubusercontent.com/39120147/210730434-e707e52e-51db-4457-8734-1a78b7824ba0.png)
 ![image](https://user-images.githubusercontent.com/39120147/210730492-dde0fb7d-9214-4277-bd34-17fcae8b8f66.png)
 I did some refactoring for the JavaScript code to tidy up and make the code more convenient. It was fun making a web application like this and might be handy if you want to track scores when doing an acitivty. I could have added a local storage function that shows the match history of everything, but that leaves it to another day. More detailed README about the score keeper can be found [here](https://github.com/bennygdev/2022Webprojects/tree/master/Score%20Keeper)
+<br>
+# Tic-Tac-Toe
+Sixth day of making a web application, I've made a tic tac toe game to practice more of my javascript knowledge. Note that this is a primitive version of the tic tac toe game and do not expect it to run perfectly, if there are any errors please do let me know. This game has multiple functions, there is a score tracker wrapper just right below the header, where it tracks what player's turns and the scores for player 1 and 2. Below is the board, where you basically just play tic tac toe. When one of the players win, a green text will show right below the board showing who won. There is a restart button to restart the game, if a player has won before, that player gets to start first next game when the game is restarted. The reset button will reset board and along with the scores. Finally, there is a light and dark theme button at the bottom right. This does not use any CSS framework, and this web app is suitable for all Desktop, Tablet and Mobile viewing.
+![image](https://user-images.githubusercontent.com/39120147/211002315-977f9db3-c22e-45b1-957d-e059e5c33057.png)
+![image](https://user-images.githubusercontent.com/39120147/211002363-4fc3aa4a-58d4-4672-86fc-dae5fbf302a0.png)
+Overall, developing this web application was a refresher to hone my knowledge of javascript, and it was pretty fun making it. More detailed README can be found [here](https://github.com/bennygdev/2022Webprojects/tree/master/Tic%20tac%20toe)
 
