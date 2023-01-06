@@ -1,0 +1,156 @@
+@font-face{
+    font-family: ralewayBold;
+    src: url(../fonts/Raleway/static/Raleway-Bold.ttf)
+}
+
+@font-face {
+    font-family: ralewayMedium;
+    src: url(../fonts/Raleway/static/Raleway-Medium.ttf);
+}
+
+:root{
+    --primaryColor: #f0f0f0; 
+    --primaryText: #000000;
+    --primaryField: #FFFFFF;
+    --primaryBoxShadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    --primaryHighlight: #d4d4d4;
+    --primaryLineColor: #b0b0b0;
+
+    --winningColor: #008000;
+    --warningColor: #ffc107;
+    --dangerColor: #c20000;
+}
+
+.dark-theme{
+    --primaryColor: #333333;
+    --primaryText: #FFFFFF;
+    --primaryField: #969696;
+    --primaryLineColor: #dedede;
+    --primaryHighlight: #404040;
+}
+
+.lightdarkmode{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+#lightdarkBtn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 1em;
+    border: none;
+    background-color: #d6d6d6;
+}
+
+#header{
+    font-family: ralewayBold;
+    font-size: 8vmin;
+    margin-top: 0px;
+    text-align: center;
+    color: var(--primaryText)
+}
+
+body{
+    background-color: var(--primaryColor);
+}
+
+.trackerWrapper h2{
+    font-family: ralewayMedium;
+    /* text-align: center; */
+    font-size: 4.5vmin;
+}
+
+.trackerWrapper{
+    background-color: var(--primaryField);
+    width: 80vmin;
+    height: 12.5vmin;
+    padding: 1px 20px;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    border-radius: 1.5em;
+    box-shadow: var(--primaryBoxShadow);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.trackerWrapper #playersTurn{
+    color: var(--warningColor);
+}
+
+.trackerWrapper #xScore, .trackerWrapper #oScore{
+    color: var(--warningColor);
+}
+
+/* vmin is used for adjusting the size when the original size is adjusted */
+.gameBoard{
+    height: 60vmin;
+    width: 60vmin;
+    background-color: var(--primaryColor);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.tile{
+    border-bottom: 5px solid var(--primaryLineColor);
+    border-right: 5px solid var(--primaryLineColor);
+    font-family: ralewayBold;
+    font-size: 15vmin;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: var(--primaryText);
+}
+
+.tile:nth-child(3n) {
+    border-right: none;
+}
+
+.tile:nth-child(n+7) {
+    border-bottom: none;
+}
+
+.tile.highlight{
+    background-color: var(--primaryHighlight);
+}
+
+#winnerText{
+    font-family: ralewayBold;
+    text-align: center;
+    font-size: 8vmin;
+    margin-top: 10px;
+    color: var(--winningColor);
+}
+
+.restartContainer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#restartButton{
+    background-color: var(--warningColor);
+    border: none;
+    width: 140px;
+    height: 45px;
+    color: #FFFFFF;
+    font-family: ralewayMedium;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#resetButton{
+    background-color: var(--dangerColor);
+    border: none;
+    width: 140px;
+    height: 45px;
+    color: #FFFFFF;
+    font-family: ralewayMedium;
+    font-size: 1.5em;
+    cursor: pointer;
+}
