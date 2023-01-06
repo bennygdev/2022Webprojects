@@ -27,7 +27,7 @@ let winningPattern = [
 
 // loops through every possible pattern, and check if the current player's mark has the correct patter, if it is then the game ends
 function CheckWinningPattern() {
-    let isGameTied = true;
+    let hasWon = false;
     winningPattern.forEach(function(pattern) {
         let check = pattern.every(index => tiles[index].innerText.trim() == currentPlayer);
         if(check) {
@@ -40,16 +40,21 @@ function CheckWinningPattern() {
                 oScore++;
                 oScoreDisplay.innerText = oScore;
             }
-        } else {
+            hasWon = true;
+        }
+    })
+    if (!hasWon) {
+        let isGameTied = true;
+        winningPattern.forEach(function(pattern) {
             // check if the game is tied
             let isTileEmpty = pattern.some(index => tiles[index].innerText.trim() == "");
             if (isTileEmpty) {
                 isGameTied = false;
             }
+        })
+        if (isGameTied) {
+            winnerText.innerHTML = "Game Tied";
         }
-    })
-    if (isGameTied) {
-        winnerText.innerHTML = "Game Tied";
     }
 }
 
