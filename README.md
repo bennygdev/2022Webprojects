@@ -44,6 +44,6 @@ Overall, developing this web application was a refresher to hone my knowledge of
 <br>
 
 # Conclusion
-Overall, making 5 web applications mainly written in JavaScript all from scratch was no easy task. I had to dig deeper and take time to read the documentations for some of the features needed. It was fun making 5 projects in a week and I learned so much from it.
+Overall, making 5 web applications mainly written in JavaScript all from scratch was no easy task. I had to dig deeper and take time to read the documentations for some of the features needed. I could have added more projects here I have done, but i have decided to take my time developing them as I feel those projects what I liked more about and cooler to make in general. But It was fun making 5 projects in a week and I learned so much from it.
 <br>
 Live demo of the website showcasing projects i've made is at: https://bennygoh.tk/2022Webprojects/
