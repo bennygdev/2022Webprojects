@@ -1,8 +1,8 @@
 # 2022 December Web Projects
-This is a work in progress. I wanted to put all my small projects written in JavaScript created over the holidays and put it here. Then I will make a webpage that links to all the small projects. Still a work in progress and hopefully to push before my next school term starts.
+2022 December Web Projects is where I have made 5 projects featuring vanilla JavaScript in a week. This started from the 1st of January, to the 7th of January. This is mainly done to display some of the general JavaScript knowledge I have learnt throughout the 2022 december holidays. <br>
+In conclusion, I was happy with the work that I have made in a week. Hopefully I will be craving for more learning and ultimately expand my knowledge for web development.
 
 # Table of contents
-WIP
 * [To-do List](#To-do-List)
 * [Snake Game](#Snake-game)
 * [Country Buddy](#Country-Buddy)
@@ -38,4 +38,9 @@ Sixth day of making a web application, I've made a tic tac toe game to practice 
 ![image](https://user-images.githubusercontent.com/39120147/211002315-977f9db3-c22e-45b1-957d-e059e5c33057.png)
 ![image](https://user-images.githubusercontent.com/39120147/211002363-4fc3aa4a-58d4-4672-86fc-dae5fbf302a0.png)
 Overall, developing this web application was a refresher to hone my knowledge of javascript, and it was pretty fun making it. More detailed README can be found [here](https://github.com/bennygdev/2022Webprojects/tree/master/Tic%20tac%20toe)
+<br>
 
+# Conclusion
+Overall, making 5 web applications mainly written in JavaScript all from scratch was no easy task. I had to dig deeper and take time to read the documentations for some of the features needed. It was fun making 5 projects in a week and I learned so much from it.
+<br>
+Live demo of the website showcasing projects i've made is at: WIP
