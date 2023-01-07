@@ -1,6 +1,9 @@
 # 2022 December Web Projects
 2022 December Web Projects is where I have made 5 projects featuring vanilla JavaScript in a week. This started from the 1st of January, to the 7th of January. This is mainly done to display some of the general JavaScript knowledge I have learnt throughout the 2022 december holidays. <br>
-In conclusion, I was happy with the work that I have made in a week. Hopefully I will be craving for more learning and ultimately expand my knowledge for web development.
+In conclusion, I was happy with the work that I have made in a week. Hopefully I will be craving for more learning and ultimately expand my knowledge for web development.<br><br>
+
+Live demo for all the projects is here: https://bennygoh.tk/2022Webprojects/
+<br>
 
 # Table of contents
 * [To-do List](#To-do-List)
@@ -43,4 +46,4 @@ Overall, developing this web application was a refresher to hone my knowledge of
 # Conclusion
 Overall, making 5 web applications mainly written in JavaScript all from scratch was no easy task. I had to dig deeper and take time to read the documentations for some of the features needed. It was fun making 5 projects in a week and I learned so much from it.
 <br>
-Live demo of the website showcasing projects i've made is at: WIP
+Live demo of the website showcasing projects i've made is at: https://bennygoh.tk/2022Webprojects/
